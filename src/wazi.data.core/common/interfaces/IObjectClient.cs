@@ -18,7 +18,7 @@ namespace wazi.data.core.drivers {
 
         bool HasDatabase(string name);
 
-        bool HasCollection(string name);
+        bool HasCollection<T>(string name);
 
         void CreateCollection(string name);
 

@@ -11,9 +11,9 @@
 --title:wazi.data.models
 --description:Wazi merchant generic data models for the DAL
 --copyright:LittleFish Technologies
---file-version:1.0.1.0
---version:1.0.1.0
---informational-version:1.0.1
+--file-version:1.0.2.0
+--version:1.0.2.0
+--informational-version:1.0.2
 --neutral-language:en
 --target-framework:.NETStandard,Version=v1.6
 --reference:C:\Users\bmrmo\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
@@ -60,6 +60,7 @@
 --reference:C:\Users\bmrmo\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\bmrmo\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
 D:\Source\git\littlefish\wazi.data\src\wazi.data.models\models\ConfigurationItem.cs
+D:\Source\git\littlefish\wazi.data\src\wazi.data.models\models\DataObject.cs
 D:\Source\git\littlefish\wazi.data\src\wazi.data.models\models\RepositoryConfig.cs
 D:\Source\git\littlefish\wazi.data\src\wazi.data.models\models\RepositoryDataObject.cs
 D:\Source\git\littlefish\wazi.data\src\wazi.data.models\Properties\AssemblyInfo.cs
