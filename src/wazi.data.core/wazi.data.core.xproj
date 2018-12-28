@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.Props" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>7b53e4dc-8dce-493f-b148-bd3930e70a14</ProjectGuid>
+    <RootNamespace>wazi.data.core</RootNamespace>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">.\obj</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">.\bin\</OutputPath>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <DnxInvisibleFolder Include="common\object repositories\franchise\" />
+    <DnxInvisibleFolder Include="common\object repositories\notifications\" />
+    <DnxInvisibleFolder Include="common\object repositories\outlet\" />
+    <DnxInvisibleFolder Include="common\object repositories\product\" />
+    <DnxInvisibleFolder Include="common\object repositories\sales\" />
+    <DnxInvisibleFolder Include="common\object repositories\security\" />
+    <DnxInvisibleFolder Include="common\object repositories\stock\" />
+    <DnxInvisibleFolder Include="common\object repositories\supplier\" />
+    <DnxInvisibleFolder Include="common\object repositories\theme\" />
+    <DnxInvisibleFolder Include="common\object repositories\time management\" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\DotNet\Microsoft.DotNet.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
