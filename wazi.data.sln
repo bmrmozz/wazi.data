@@ -14,7 +14,7 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "wazi.data.core", "src\wazi.
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "wazi.data.models", "src\wazi.data.models\wazi.data.models.xproj", "{66B3E432-BBBD-4FCC-BA51-BC81B2AC5E61}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "wazi.data.clients.mongo", "src\wazi.data.clients.mongo\wazi.data.clients.mongo.xproj", "{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "wazidataservicetest", "src\wazidataservicetest\wazidataservicetest.xproj", "{25FE699E-1CEE-4E96-917E-072725DC0D63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,10 +30,10 @@ Global
 		{66B3E432-BBBD-4FCC-BA51-BC81B2AC5E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B3E432-BBBD-4FCC-BA51-BC81B2AC5E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B3E432-BBBD-4FCC-BA51-BC81B2AC5E61}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25FE699E-1CEE-4E96-917E-072725DC0D63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25FE699E-1CEE-4E96-917E-072725DC0D63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25FE699E-1CEE-4E96-917E-072725DC0D63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25FE699E-1CEE-4E96-917E-072725DC0D63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +41,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{7B53E4DC-8DCE-493F-B148-BD3930E70A14} = {64FCE37C-8E60-4A4A-898C-A0F641ECECF4}
 		{66B3E432-BBBD-4FCC-BA51-BC81B2AC5E61} = {64FCE37C-8E60-4A4A-898C-A0F641ECECF4}
-		{3CCED2BF-A1D9-45CC-9EF1-2D073E09D31B} = {64FCE37C-8E60-4A4A-898C-A0F641ECECF4}
+		{25FE699E-1CEE-4E96-917E-072725DC0D63} = {64FCE37C-8E60-4A4A-898C-A0F641ECECF4}
 	EndGlobalSection
 EndGlobal

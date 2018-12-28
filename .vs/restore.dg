@@ -1,3 +1,6 @@
-#:D:\Source\git\littlefish\wazi.data\src\wazi.data.clients.mongo\wazi.data.clients.mongo.xproj
-D:\Source\git\littlefish\wazi.data\src\wazi.data.clients.mongo\wazi.data.clients.mongo.xproj|D:\Source\git\littlefish\wazi.data\src\wazi.data.core\wazi.data.core.xproj
+#:D:\Source\git\littlefish\wazi.data\src\wazi.data.core\wazi.data.core.xproj
+D:\Source\git\littlefish\wazi.data\src\wazi.data.core\wazi.data.core.xproj|D:\Source\git\littlefish\wazi.data\src\wazi.data.models\wazi.data.models.xproj
+#:D:\Source\git\littlefish\wazi.data\src\wazidataservicetest\wazidataservicetest.xproj
+D:\Source\git\littlefish\wazi.data\src\wazidataservicetest\wazidataservicetest.xproj|D:\Source\git\littlefish\wazi.data\src\wazi.data.core\wazi.data.core.xproj
+D:\Source\git\littlefish\wazi.data\src\wazidataservicetest\wazidataservicetest.xproj|D:\Source\git\littlefish\wazi.data\src\wazi.data.models\wazi.data.models.xproj
 D:\Source\git\littlefish\wazi.data\src\wazi.data.core\wazi.data.core.xproj|D:\Source\git\littlefish\wazi.data\src\wazi.data.models\wazi.data.models.xproj
