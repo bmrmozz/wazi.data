@@ -3,3 +3,4 @@ src/wazi.data.clients.mongo/bin/Debug/netstandard1.6/rcos.data.pdb
 *.pdb
 *.nupkg
 *.suo
+src/wazi.data.models/bin/Debug/netstandard1.6/wazi.data.models.deps.json

@@ -8,9 +8,13 @@
 --suppress-warning:CS1705
 --optimize:False
 --output-name:wazi.data.models
---file-version:1.0.0.0
---version:1.0.0.0
---informational-version:1.0.0
+--title:wazi.data.models
+--description:Wazi merchant generic data models for the DAL
+--copyright:LittleFish Technologies
+--file-version:1.0.1.0
+--version:1.0.1.0
+--informational-version:1.0.1
+--neutral-language:en
 --target-framework:.NETStandard,Version=v1.6
 --reference:C:\Users\bmrmo\.nuget\packages\Microsoft.Win32.Primitives\4.0.1\ref\netstandard1.3\Microsoft.Win32.Primitives.dll
 --reference:C:\Users\bmrmo\.nuget\packages\System.AppContext\4.1.0\ref\netstandard1.6\System.AppContext.dll
