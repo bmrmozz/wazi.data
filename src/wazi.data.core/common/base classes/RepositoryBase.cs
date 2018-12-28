@@ -6,7 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using wazi.data.models;
-using wazi.data.core.common.managers;
 
 namespace wazi.data.core {
     public class RepositoryBase : IRepository {
@@ -53,7 +52,8 @@ namespace wazi.data.core {
         }
 
         public virtual IObjectClient GetClient() {
-            return ClientManager.GetClient<IObjectClient>(this.repository);
+            // return ClientManager.GetClient<mongo.client.MongoClient>(this.repository);
+            return null;
         }
 
         public virtual IObjectRepository GetObjectRepository<T>() {

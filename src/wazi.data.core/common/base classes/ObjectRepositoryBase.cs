@@ -86,7 +86,7 @@ namespace wazi.data.core {
         public virtual void Create() {
             if (this.repository != null) {
                 using (var client = this.repository.GetClient()) {
-                    if (!client.HasCollection<T>(this.FullName)) {
+                    if (!client.HasCollection(this.FullName)) {
                         client.CreateCollection(this.FullName);
                         this.SetDefaults(client);
                     }
@@ -142,7 +142,7 @@ namespace wazi.data.core {
                 return null;
 
             using (var client = this.repository.GetClient()) {
-                if (!client.HasCollection<T>(this.FullName))
+                if (!client.HasCollection(this.FullName))
                     return null;
 
                 //now we need to get all the items using the client.
@@ -156,7 +156,7 @@ namespace wazi.data.core {
                 return null;
 
             using (var client = this.repository.GetClient()) {
-                if (!client.HasCollection<T>(this.FullName))
+                if (!client.HasCollection(this.FullName))
                     return null;
 
                 //now we need to get all the items using the client.
@@ -166,7 +166,7 @@ namespace wazi.data.core {
 
         public void Update(IEnumerable<FilterItem> filters, object newvalue) {
             using (var client = this.repository.GetClient()) {
-                if (client.HasCollection<T>(this.FullName)) {
+                if (client.HasCollection(this.FullName)) {
                     client.Update<T>(this, (T)newvalue, filters);
                 }
                 else {
