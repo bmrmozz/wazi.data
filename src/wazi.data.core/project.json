@@ -1,14 +1,27 @@
 {
-  "title": "Wazi Data Library",
+  "title": "wazi.data.core",
   "copyright": "LittleFish Technologies",
-  "description": "A core data construct library used by micro-services to access data services",
+  "description": "The core data access layer which is used across the wazimerchant eco-system",
+  "authors": [ "Brandon Roberts" ],
+  "packOptions": {
+    "iconUrl": "http://littlefish.africa/wp-content/uploads/2018/08/Asset-3.png",
+    "owners": [ "LittleFish Technologies" ],
+    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
+    "requireLicenseAcceptance": true,
+    "summary": "A lightweight data access layer library, which provides independant access to databases for micro-services",
+    "tags": [
+      "MongoDB",
+      "MicroServices",
+      "Data Access Layer"
+    ]
+  },
   "language": "en",
-  "version": "1.0.0-*",
+  "version": "1.0.1-*",
 
   "dependencies": {
     "NETStandard.Library": "1.6.0",
     "Newtonsoft.Json": "9.0.1",
-    "wazi.data.models": "1.0.0-*"
+    "wazi.data.models": "1.0.1-*"
   },
 
   "frameworks": {

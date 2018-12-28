@@ -1167,7 +1167,7 @@
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
       },
-      "wazi.data.models/1.0.0": {
+      "wazi.data.models/1.0.1": {
         "type": "project",
         "framework": ".NETStandard,Version=v1.6",
         "dependencies": {
@@ -4347,7 +4347,7 @@
         "ref/xamarinwatchos10/_._"
       ]
     },
-    "wazi.data.models/1.0.0": {
+    "wazi.data.models/1.0.1": {
       "type": "project",
       "path": "../wazi.data.models/project.json",
       "msbuildProject": "../wazi.data.models/wazi.data.models.xproj"
@@ -4357,7 +4357,7 @@
     "": [
       "NETStandard.Library >= 1.6.0",
       "Newtonsoft.Json >= 9.0.1",
-      "wazi.data.models >= 1.0.0-*"
+      "wazi.data.models >= 1.0.1-*"
     ],
     ".NETStandard,Version=v1.6": []
   },

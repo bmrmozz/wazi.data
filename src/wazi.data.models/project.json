@@ -4,7 +4,9 @@
   "description": "Wazi merchant generic data models for the DAL",
   "authors": [ "Brandon Roberts" ],
   "packOptions": {
+    "iconUrl": "http://littlefish.africa/wp-content/uploads/2018/08/Asset-3.png",
     "owners": [ "LittleFish Technologies" ],
+    "licenseUrl": "https://www.apache.org/licenses/LICENSE-2.0",
     "requireLicenseAcceptance": true,
     "summary": "A base project for the DAL layer libraries, of which are to be ingested by micro-services within the WaziMerchant eco-system",
     "tags": [

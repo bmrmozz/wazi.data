@@ -8,12 +8,12 @@
 --suppress-warning:CS1705
 --optimize:False
 --output-name:wazi.data.core
---title:Wazi Data Library
---description:A core data construct library used by micro-services to access data services
+--title:wazi.data.core
+--description:The core data access layer which is used across the wazimerchant eco-system
 --copyright:LittleFish Technologies
---file-version:1.0.0.0
---version:1.0.0.0
---informational-version:1.0.0
+--file-version:1.0.1.0
+--version:1.0.1.0
+--informational-version:1.0.1
 --neutral-language:en
 --target-framework:.NETStandard,Version=v1.6
 --reference:C:\Users\bmrmo\.nuget\packages\Microsoft.CSharp\4.0.1\ref\netstandard1.0\Microsoft.CSharp.dll
