@@ -18,9 +18,9 @@ namespace wazi.data.core.drivers {
 
         bool HasDatabase(string name);
 
-        bool HasCollection(string name);
+        bool HasCollection<T>(string name);
 
-        void CreateCollection(string name);
+        void CreateCollection<T>(string name);
 
         void Save<T>(IObjectRepository repo, IEnumerable<T> items, bool autocreate = false);
 

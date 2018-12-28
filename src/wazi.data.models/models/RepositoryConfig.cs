@@ -29,9 +29,17 @@ namespace wazi.data.models {
             set;
         }
 
+        RepositoryAddress server = null;
         public RepositoryAddress Server {
-            get;
-            set;
+            get {
+                if (null == server && this.Servers != null)
+                    return Servers.FirstOrDefault();
+                return server;
+            }
+            set {
+                if (server != value)
+                    server = value;
+            }
         }
 
         public IEnumerable<RepositoryAddress> Servers {

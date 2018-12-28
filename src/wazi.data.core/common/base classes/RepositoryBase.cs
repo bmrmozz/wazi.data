@@ -6,6 +6,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using wazi.data.models;
+using wazi.data.core.managers;
+using wazi.data.clients.mongo;
+using wazi.data.core.common;
 
 namespace wazi.data.core {
     public class RepositoryBase : IRepository {
@@ -52,12 +55,18 @@ namespace wazi.data.core {
         }
 
         public virtual IObjectClient GetClient() {
-            // return ClientManager.GetClient<mongo.client.MongoClient>(this.repository);
-            return null;
+             return ClientManager.GetClient<MongoClient>(this.repository);
+           // return null;
         }
 
         public virtual IObjectRepository GetObjectRepository<T>() {
-            return this.objectRepositories.FirstOrDefault(repo => (repo.Value as IObjectRepository).IsRepository(typeof(T))).Value as IObjectRepository;
+            var thisresult = this.objectRepositories.FirstOrDefault(repo => (repo.Value as IObjectRepository).IsRepository(typeof(T))).Value as IObjectRepository;
+
+            //if(thisresult == null && autoadd) {
+            //    thisresult = new GenericRepo<typeof(T)>(this);
+            //}
+
+            return thisresult;
         }
 
         public virtual void AddObjectRepository<T>(IObjectRepository objectrepo) {
@@ -74,7 +83,7 @@ namespace wazi.data.core {
                 Servers = this.repository.Servers,
                 Type = RepositoryType.data,
                 DisplayName = Name,
-                State = ConfigState.active
+                State = models.ConfigState.active
             };
 
             repository.SetConfig(newconfig);

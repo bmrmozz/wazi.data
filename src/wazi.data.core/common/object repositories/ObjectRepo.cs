@@ -9,8 +9,8 @@ namespace wazi.data.core
 {
     public class ObjectRepo : ObjectRepositoryBase<RepositoryConfig> {
         public ObjectRepo(IRepository defaultrepo = null) : base(defaultrepo) {
-            base.Name = "rcos_data";
-            base.Prefix = "mst";
+            base.Name = "waziobjectdata";
+            base.Prefix = "dat";
         }
 
         public override void SetDefaults(IObjectClient client) {

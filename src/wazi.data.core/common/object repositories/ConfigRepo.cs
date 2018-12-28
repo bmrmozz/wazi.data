@@ -8,8 +8,8 @@ namespace wazi.data.core {
     public class ConfigRepo : ObjectRepositoryBase<ConfigurationItem> {
         public ConfigRepo(IRepository defaultrepo = null) :
             base(defaultrepo) {
-            this.Name = "configuration";
-            this.Prefix = "mst";
+            this.Name = "waziconfig";
+            this.Prefix = "sys";
         }
     }
 }
